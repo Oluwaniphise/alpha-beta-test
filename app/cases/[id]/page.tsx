@@ -57,7 +57,7 @@ export default function CaseDetailPage() {
               <div className="my-6 border-t border-dashed border-neutral-200" />
               <SummaryCards caseDetail={data} />
               <div className="my-6 border-t border-dashed border-neutral-200" />
-              <TeamsSection caseDetail={data} />
+              {/* <TeamsSection caseDetail={data} /> */}
             </div>
           ) : (
             <TabEmptyState tabLabel={TAB_LABELS[activeTab]} />
@@ -65,7 +65,7 @@ export default function CaseDetailPage() {
         </main>
 
         <aside className="w-full shrink-0 border-t border-neutral-200 lg:w-80 lg:border-l lg:border-t-0">
-          <WorkflowPanel steps={data.workflow} />
+          {/* <WorkflowPanel steps={data.workflow} /> */}
           <TimelinePanel events={data.timeline} />
         </aside>
       </div>

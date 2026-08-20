@@ -9,7 +9,7 @@ const ACCENT_CLASSES: Record<Team["accent"], string> = {
 
 function TeamCard({ team }: { team: Team }) {
   return (
-    <div className="flex items-center gap-4 border border-dashed border-neutral-300 bg-white p-4">
+    <div className="flex items-center gap-4 border border-dashed border-neutral-300 bg-[#f9f9f9] p-4">
       <span
         className={cn(
           "flex size-12 shrink-0 items-center justify-center rounded-full text-sm font-semibold",
@@ -39,7 +39,7 @@ function TeamCard({ team }: { team: Team }) {
 export function TeamsSection({ caseDetail }: { caseDetail: CaseDetail }) {
   return (
     <section aria-labelledby="teams-heading">
-      <h2 id="teams-heading" className="pb-4 text-sm font-semibold text-neutral-900">
+      <h2 id="teams-heading" className="pb-4  text-sm font-semibold text-neutral-900">
         Teams
       </h2>
       <div className="grid gap-4 md:grid-cols-2">
