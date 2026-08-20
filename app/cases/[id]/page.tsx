@@ -64,7 +64,7 @@ export default function CaseDetailPage() {
           )}
         </main>
 
-        <aside className="w-full shrink-0 border-t border-neutral-200 lg:w-80 lg:border-l lg:border-t-0">
+        <aside className="w-full shrink-0 border-t border-neutral-200 lg:w-[384px] lg:border-l lg:border-t-0">
           {/* <WorkflowPanel steps={data.workflow} /> */}
           <TimelinePanel events={data.timeline} />
         </aside>
